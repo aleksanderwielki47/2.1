@@ -2,7 +2,7 @@ let waga = 70;
 
 let wzrost = 175; // w centymetrach  
 
-let bmi1 = wzrost * wzrost / waga;
+let bmi1 = waga / (wzrost/100) * (wzrost/100);
 
 let wzrostWMetrach = wzrost / 100;
 
